@@ -11,4 +11,7 @@ gem 'twitter', '~> 5.15.0'
 
 group :development, :test do
   gem 'dotenv-rails', '~> 2.0.2'
+  gem 'rspec-rails', '~> 3.4'
+  gem 'shoulda-matchers', '~> 3.0.1'
+  gem 'fuubar', '~> 2.0'
 end
