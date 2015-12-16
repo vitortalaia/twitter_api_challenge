@@ -9,6 +9,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails', '~> 4.0.5'
 gem 'twitter', '~> 5.15.0'
 gem 'devise', '~> 3.5.3'
+gem 'react-rails', '~> 1.5.0'
 
 group :development, :test do
   gem 'dotenv-rails', '~> 2.0.2'
