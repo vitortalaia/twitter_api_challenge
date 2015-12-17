@@ -10,6 +10,12 @@ gem 'jquery-rails', '~> 4.0.5'
 gem 'twitter', '~> 5.15.0'
 gem 'devise', '~> 3.5.3'
 gem 'react-rails', '~> 1.5.0'
+gem 'bourbon', '~> 4.2.6'
+gem 'neat', '~> 1.7.2'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-normalize-css', '~> 3.0.3'
+end
 
 group :development, :test do
   gem 'dotenv-rails', '~> 2.0.2'
