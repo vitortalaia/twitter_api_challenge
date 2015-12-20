@@ -4,6 +4,8 @@ rvm:
   - 2.2.3
 addons:
   postgresql: '9.3'
+  code_climate:
+    repo_token: d11376230ce9172f8825ebcd9253fa90e44f46b6f5e9a1f2a121576f2d4bf729
 services:
   - postgresql
 before_script:
