@@ -1,0 +1,22 @@
+.card {
+  @include span-columns(4);
+
+  @include media($tablet) {
+    @include span-columns(4);
+  }
+
+  @include media($mobile) {
+    @include span-columns(3.5);
+  }
+
+  padding: em(30px);
+  background-color: $white;
+  border-radius: $default-radius;
+
+  &__title {
+    margin: 0 0 em(15px);
+    color: $gray;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}

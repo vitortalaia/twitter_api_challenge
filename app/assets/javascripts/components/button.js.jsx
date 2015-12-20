@@ -9,7 +9,8 @@ var Button = React.createClass({
 
   render: function () {
     return (
-      <button className={this.props.className} type={this.props.type}>
+      <button className={"button " +this.props.className}
+        type={this.props.type}>
         {this.props.text}
       </button>
     );

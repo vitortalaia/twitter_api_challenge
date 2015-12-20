@@ -6,7 +6,7 @@ var LabeledField = React.createClass({
   render: function () {
     return (
       <div className="form__field">
-        <label className={this.props.className} htmlFor={this.props.htmlFor}>
+        <label className="form__label" htmlFor={this.props.htmlFor}>
           {this.props.text}:
         </label>
 
