@@ -27,4 +27,5 @@ end
 group :test do
   gem 'factory_girl_rails', '~> 4.5.0'
   gem 'capybara', '~> 2.5.0'
+  gem "codeclimate-test-reporter", require: nil
 end
