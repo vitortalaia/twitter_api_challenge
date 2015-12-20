@@ -1,0 +1,36 @@
+@mixin button($primary-color, $hover-color) {
+  @include appearance(none);
+
+  color: $white;
+  background-color: $primary-color;
+  outline: none;
+
+  &:hover {
+    cursor: pointer;
+    background-color: $hover-color;
+  }
+}
+
+.button {
+  @include button($blue, $light-blue);
+  padding: em(5px) em(15px);
+  font-weight: $bold-weight;
+  border: none;
+  border-radius: $default-radius;
+  vertical-align: middle;
+}
+
+.button--large {
+  padding: em(6px) em(18px);
+  font-size: em(18px);
+}
+
+.button--small {
+  padding: em(4px) em(12px);
+  font-size: em(12px);
+}
+
+.button--block {
+  margin: em(5px) 0;
+  width: 100%;
+}

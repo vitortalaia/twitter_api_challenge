@@ -1,14 +1,14 @@
 var LoginForm = React.createClass({
   propTypes: {
     action: React.PropTypes.string.isRequired,
-    children: React.PropTypes.object.isRequired
+    children: React.PropTypes.object.isRequired,
+    csrf_token: React.PropTypes.string.isRequired
   },
 
   getDefaultProps: function () {
     return {
       method: 'post',
-      utf8: '✓',
-      csrf_token: $('head').find('meta[name=csrf-token]').attr('content')
+      utf8: '✓'
     };
   },
 
@@ -17,25 +17,30 @@ var LoginForm = React.createClass({
         passwordField = this.props.children.password;
 
     return (
-      <form method={this.props.method} action={this.props.action}>
+      <form className="form" method={this.props.method}
+        action={this.props.action}>
+
         <HiddenInput name="utf8" value={this.props.utf8} />
         <HiddenInput name="authenticity_token" value={this.props.csrf_token} />
 
-        <LabeledField text={emailField.label} htmlFor={emailField.id}>
+        <LabeledField text={emailField.label} htmlFor="user_email">
           <Input
-            id={emailField.id}
-            type={emailField.type}
-            name={emailField.name} />
+            className="form__control"
+            id="user_email"
+            type="email"
+            name="user[email]" />
         </LabeledField>
 
-        <LabeledField text={passwordField.label} htmlFor={passwordField.id}>
+        <LabeledField text={passwordField.label} htmlFor="user_password">
           <Input
-            id={passwordField.id}
-            type={passwordField.type}
-            name={passwordField.name} />
+            className="form__control"
+            id="user_password"
+            type="password"
+            name="user[password]" />
         </LabeledField>
 
-        <Button text="Login" type="submit" />
+        <Button className="button--block button--large"
+          text={this.props.submitText} type="submit" />
       </form>
     );
   }

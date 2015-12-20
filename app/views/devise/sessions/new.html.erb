@@ -1,26 +1,24 @@
-
+<% if alert %>
+  <p class="alert alert-danger"><%= alert %></p>
+<% end %>
 
 <div class="fullscreen-container">
   <div class="card">
-    <h2>Log in</h2>
+    <h2 class="card__title"><%= t(:login) %></h2>
+
     <%= react_component("LoginForm", {
+          csrf_token: form_authenticity_token,
           action: user_session_path,
+          submitText: t(:login),
           children: {
             email: {
-              id: "user_email",
-              type: "email",
-              name: "user[email]",
               label: User.human_attribute_name("email")
             },
             password: {
-              id: "user_password",
-              type: "password",
-              name: "user[password]",
               label: User.human_attribute_name("password")
             }
           }
-        })
+        }, { prerender: true })
     %>
   </div>
 </div>
-

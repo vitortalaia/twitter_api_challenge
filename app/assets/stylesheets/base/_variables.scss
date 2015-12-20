@@ -14,9 +14,11 @@ $blue: #55b0f2;
 $dark-blue: #2a4154;
 $light-blue: #6dc7f5;
 
-$gray: #73819c;
-$light-gray: #dcd1d4;
+$red: #ff4136;
+$light-red: lighten($red, 20%);
 
+$gray: #8a8e8e;
+$light-gray: lighten($gray, 20%);
 
 // Others
 $default-radius: 3px;

@@ -1,11 +1,8 @@
 @import "_variables";
+@import "_typography";
 
 body {
-  font-family: $base-font;
-  font-size: $base-font-size;
-  font-weight: $normal-weight;
-
-  background-color: $blue;
+  @include radial-gradient($light-blue, $blue);
 }
 
 .fullscreen-container {
