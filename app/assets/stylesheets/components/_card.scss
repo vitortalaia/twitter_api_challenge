@@ -19,4 +19,14 @@
     text-align: center;
     text-transform: uppercase;
   }
+
+  &__error {
+    padding: em(10px);
+    font-size: em(14px);
+    font-weight: $semibold-weight;
+    color: $red;
+    text-align: center;
+    background-color: lighten($red, 35%);
+    border-radius: $default-radius;
+  }
 }

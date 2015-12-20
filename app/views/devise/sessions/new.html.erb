@@ -1,10 +1,12 @@
-<% if alert %>
-  <p class="alert alert-danger"><%= alert %></p>
-<% end %>
+
 
 <div class="fullscreen-container">
   <div class="card">
     <h2 class="card__title"><%= t(:login) %></h2>
+
+    <% if alert %>
+      <p class="card__error"><%= alert %></p>
+    <% end %>
 
     <%= react_component("LoginForm", {
           csrf_token: form_authenticity_token,
