@@ -58,7 +58,6 @@ GEM
     coffee-script-source (1.10.0)
     concurrent-ruby (1.0.0)
     connection_pool (2.2.0)
-    database_cleaner (1.5.1)
     devise (3.5.3)
       bcrypt (~> 3.0)
       orm_adapter (~> 0.1)
@@ -231,7 +230,6 @@ PLATFORMS
 DEPENDENCIES
   bourbon (~> 4.2.6)
   capybara (~> 2.5.0)
-  database_cleaner (~> 1.5.1)
   devise (~> 3.5.3)
   dotenv-rails (~> 2.0.2)
   factory_girl_rails (~> 4.5.0)
