@@ -7,7 +7,6 @@ var LoginForm = React.createClass({
 
   getDefaultProps: function () {
     return {
-      method: 'post',
       utf8: '✓'
     };
   },
@@ -17,11 +16,10 @@ var LoginForm = React.createClass({
         passwordField = this.props.children.password;
 
     return (
-      <form className="form" method={this.props.method}
-        action={this.props.action}>
-
-        <HiddenInput name="utf8" value={this.props.utf8} />
-        <HiddenInput name="authenticity_token" value={this.props.csrf_token} />
+      <form className="form" method="post" action={this.props.action}>
+        <input type="hidden" name="utf8" value={this.props.utf8} />
+        <input type="hidden" name="authenticity_token"
+          value={this.props.csrf_token} />
 
         <LabeledField text={emailField.label} htmlFor="user_email">
           <Input
@@ -39,8 +37,9 @@ var LoginForm = React.createClass({
             name="user[password]" />
         </LabeledField>
 
-        <Button className="button--block button--large"
-          text={this.props.submitText} type="submit" />
+        <button className="button button--block button--large" type="submit">
+          {this.props.submitText}
+        </button>
       </form>
     );
   }

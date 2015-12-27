@@ -1,3 +1,4 @@
 en:
   app_name: "Twitter API Challenge"
   login: "Log in"
+  instructions: "Type an username in the box below and hit enter"
