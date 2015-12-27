@@ -1,8 +1,28 @@
 @import "_variables";
 @import "_typography";
 
+html {
+  height: 100%;
+}
+
 body {
   @include radial-gradient($light-blue, $blue);
+}
+
+.container {
+  @include outer-container;
+
+  max-width: 50%;
+  padding: em(40px) 0;
+
+  @include media($tablet) {
+    max-width: 75%;
+  }
+
+  &__title {
+    color: $white;
+    text-align: center;
+  }
 }
 
 .fullscreen-container {

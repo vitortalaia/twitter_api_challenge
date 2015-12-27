@@ -1,0 +1,27 @@
+.searchbar {
+  @include display(flex);
+
+  &__addon {
+    padding-left: em(10px);
+    font-weight: $bold-weight;
+    font-size: em(20px);
+    line-height: 2.3;
+    color: $blue;
+    background-color: $white;
+    border-top-left-radius: $default-radius;
+    border-bottom-left-radius: $default-radius;
+  }
+
+  &__input {
+    @include appearance(none);
+    @include flex(1);
+
+    padding: em(10px) em(5px);
+    font-weight: $semibold-weight;
+    color: $gray;
+    background-color: $white;
+    border: none;
+    border-top-right-radius: $default-radius;
+    border-bottom-right-radius: $default-radius;
+  }
+}

@@ -9,7 +9,7 @@ describe "User sign in" do
     fill_in "Password", with: user.password
     click_button "Log in"
 
-    expect(page).to have_content "You are logged in"
+    expect(page).to have_content I18n.t(:instructions)
   end
 
   it "doesn't allow an unregistered user to log in" do
