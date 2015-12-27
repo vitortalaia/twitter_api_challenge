@@ -1,0 +1,86 @@
+.user-profile {
+  padding-bottom: em(20px);
+  margin: em(20px) 0;
+  border-radius: $default-radius;
+  background-color: $white;
+
+  &__banner {
+    width: 100%;
+    height: em(150px);
+    background-size: 100%;
+    background-position: 0 50%;
+    border-radius: $default-radius $default-radius 0 0;
+    background-color: $dark-blue;
+
+    @include media($tablet) {
+      height: em(130px);
+    }
+
+    @include media($mobile) {
+      height: em(100px);
+    }
+  }
+
+  &__info {
+    @include display(flex);
+    @include flex-wrap(wrap);
+    @include align-items(flex-end);
+
+    width: 90%;
+    margin: em(-50px) auto 0;
+  }
+
+  &__image {
+    width: em(100px);
+    border-radius: $default-radius;
+    border: em(3px) solid $white;
+  }
+
+  &__name {
+    margin: 0 em(10px);
+    font-size: em(22px);
+    color: darken($gray, 35%);
+  }
+
+  &__username {
+    display: block;
+    font-size: em(10px);
+    font-weight: $semibold-weight;
+    color: $light-gray;
+
+    &:before {
+      content: '@';
+    }
+  }
+
+  &__description {
+    font-size: em(14px);
+    color: $gray;
+  }
+
+  &__stats {
+    @include display(flex);
+    @include justify-content(space-between);
+
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    list-style: none;
+
+    &__item { text-align: center; }
+
+    &__label {
+      display: block;
+      font-size: em(12px);
+      font-weight: $semibold-weight;
+      text-transform: uppercase;
+      color: $light-gray;
+    }
+
+    &__value {
+      font-size: em(20px);
+      font-weight: $bold-weight;
+      color: $gray;
+    }
+  }
+}

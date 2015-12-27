@@ -19,6 +19,10 @@ body {
     max-width: 75%;
   }
 
+  @include media($mobile) {
+    max-width: 90%;
+  }
+
   &__title {
     color: $white;
     text-align: center;
@@ -32,4 +36,25 @@ body {
 
   width: 100%;
   height: 100vh;
+}
+
+.notice {
+  margin: 20px 0;
+  font-size: em(30px);
+  font-weight: $bold-weight;
+  color: $white;
+  text-align: center;
+
+  &--loading {
+    @include animation(loading-timeline .5s $ease-in-quad alternate infinite);
+  }
+}
+
+@include keyframes(loading-timeline) {
+  from {
+    opacity: .15;
+  }
+  to {
+    opacity: 1;
+  }
 }
