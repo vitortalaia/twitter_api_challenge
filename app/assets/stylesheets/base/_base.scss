@@ -7,6 +7,8 @@ html {
 
 body {
   @include radial-gradient($light-blue, $blue);
+
+  background-attachment: fixed;
 }
 
 input {
