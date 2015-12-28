@@ -1,13 +1,13 @@
 class TimelineService
-  def self.perform(username, count = 25)
-    TimelineRepresenter.for_collection.new timeline(username, count)
+  def self.perform(username)
+    TimelineRepresenter.for_collection.new timeline(username)
   end
 
   protected
 
-  def self.timeline(username, count)
-    Rails.cache.fetch("#{username}/timeline/#{count}", expires_in: 5.minutes) do
-      TwitterClient.user_timeline(username, count: count)
+  def self.timeline(username)
+    Rails.cache.fetch("#{username}/timeline", expires_in: 5.minutes) do
+      TwitterClient.user_timeline(username, count: 25)
     end
   end
 end

@@ -9,6 +9,8 @@ Rails.application.routes.draw do
 
   authenticated :user do
     root "timeline#index", as: :authenticated_root
+
+    get "/timeline/:username", to: "timeline#fetch", as: :timeline
   end
 
   devise_scope :user do
