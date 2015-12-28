@@ -9,6 +9,11 @@ body {
   @include radial-gradient($light-blue, $blue);
 }
 
+input {
+  outline: none;
+  box-shadow: none;
+}
+
 .container {
   @include outer-container;
 

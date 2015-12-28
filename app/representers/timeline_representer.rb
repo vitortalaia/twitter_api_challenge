@@ -8,16 +8,8 @@ class TimelineRepresenter < Representable::Decorator
   property :text
   property :hashtags
   property :user_mentions
-  property :retweeted_status?
-  property :retweeted_status
-  property :quoted_status?
-  property :quoted_status
 
   property :user do
-    property :id
-    property :created_at
-    property :verified?, as: :verified
-    property :protected?, as: :protected
     property :name
     property :screen_name
     property :description
@@ -25,5 +17,6 @@ class TimelineRepresenter < Representable::Decorator
     property :followers_count
     property :statuses_count
     property :profile_image_url_https
+    property :profile_banner_url
   end
 end

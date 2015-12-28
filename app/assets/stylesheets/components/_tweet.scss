@@ -1,0 +1,23 @@
+.tweet {
+  padding: em(20px) 0 em(15px);
+
+  &:not(:first-child) {
+    border-top: 1px solid $light-gray;
+  }
+
+  &__text {
+    margin: 0;
+    font-size: em(18px);
+    color: $dark-gray;
+  }
+
+  &__date {
+    display: inline-block;
+    width: 100%;
+    margin-top: em(15px);
+    font-size: em(12px);
+    font-weight: $semibold-weight;
+    color: $gray;
+    text-align: right;
+  }
+}

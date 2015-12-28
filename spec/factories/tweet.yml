@@ -1,10 +1,10 @@
 ---
-:created_at: Fri Dec 25 19:00:04 +0000 2015
-:id: 680463035614498819
-:id_str: '680463035614498819'
-:text: "RT @vine: Now on Vine: Happy Holidays https://t.co/88zPYXFhTw \U0001F384⛄️
-  https://t.co/hg8IMHYtZ3"
-:source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for iPhone</a>
+:created_at: Fri Dec 11 11:35:39 +0000 2015
+:id: 675277763679543296
+:id_str: '675277763679543296'
+:text: 'RT @hannelita: #Haskell by example with @fuadsaud @Codeminer42 @paulodiovani
+  @matiasleidemer https://t.co/Q76ofQGoFp'
+:source: <a href="https://about.twitter.com/products/tweetdeck" rel="nofollow">TweetDeck</a>
 :truncated: false
 :in_reply_to_status_id: 
 :in_reply_to_status_id_str: 
@@ -12,59 +12,49 @@
 :in_reply_to_user_id_str: 
 :in_reply_to_screen_name: 
 :user:
-  :id: 783214
-  :id_str: '783214'
-  :name: Twitter
-  :screen_name: twitter
-  :location: San Francisco, CA
-  :description: |-
-    Your official source for news, updates and tips from Twitter, Inc.
-
-
-    Need help? Visit http://t.co/qq1HEzvnrA.
-  :url: http://t.co/5iRhy7wTgu
+  :id: 367869891
+  :id_str: '367869891'
+  :name: Codeminer42
+  :screen_name: Codeminer42
+  :location: São Paulo, SP, Brazil
+  :description: Don't Panic! Your IT needs can be fulfilled by Codeminer 42. Get to
+    know us.
+  :url: http://t.co/8aTZp8iitD
   :entities:
     :url:
       :urls:
-      - :url: http://t.co/5iRhy7wTgu
-        :expanded_url: http://blog.twitter.com/
-        :display_url: blog.twitter.com
+      - :url: http://t.co/8aTZp8iitD
+        :expanded_url: http://www.codeminer42.com
+        :display_url: codeminer42.com
         :indices:
         - 0
         - 22
     :description:
-      :urls:
-      - :url: http://t.co/qq1HEzvnrA
-        :expanded_url: http://support.twitter.com
-        :display_url: support.twitter.com
-        :indices:
-        - 86
-        - 108
+      :urls: []
   :protected: false
-  :followers_count: 50029294
-  :friends_count: 141
-  :listed_count: 89047
-  :created_at: Tue Feb 20 14:35:54 +0000 2007
-  :favourites_count: 136
-  :utc_offset: -28800
-  :time_zone: Pacific Time (US & Canada)
+  :followers_count: 962
+  :friends_count: 76
+  :listed_count: 39
+  :created_at: Sun Sep 04 18:10:56 +0000 2011
+  :favourites_count: 0
+  :utc_offset: -7200
+  :time_zone: Brasilia
   :geo_enabled: true
-  :verified: true
-  :statuses_count: 2301
+  :verified: false
+  :statuses_count: 58
   :lang: en
   :contributors_enabled: false
   :is_translator: false
   :is_translation_enabled: false
-  :profile_background_color: ACDED6
-  :profile_background_image_url: http://pbs.twimg.com/profile_background_images/657090062/l1uqey5sy82r9ijhke1i.png
-  :profile_background_image_url_https: https://pbs.twimg.com/profile_background_images/657090062/l1uqey5sy82r9ijhke1i.png
+  :profile_background_color: '131516'
+  :profile_background_image_url: http://pbs.twimg.com/profile_background_images/479630562/free-texture-noearaujo.jpg
+  :profile_background_image_url_https: https://pbs.twimg.com/profile_background_images/479630562/free-texture-noearaujo.jpg
   :profile_background_tile: true
-  :profile_image_url: http://pbs.twimg.com/profile_images/666407537084796928/YBGgi9BO_normal.png
-  :profile_image_url_https: https://pbs.twimg.com/profile_images/666407537084796928/YBGgi9BO_normal.png
-  :profile_banner_url: https://pbs.twimg.com/profile_banners/783214/1449510861
-  :profile_link_color: '226699'
-  :profile_sidebar_border_color: FFFFFF
-  :profile_sidebar_fill_color: F6F6F6
+  :profile_image_url: http://pbs.twimg.com/profile_images/1571702857/codeminer-logo_normal.png
+  :profile_image_url_https: https://pbs.twimg.com/profile_images/1571702857/codeminer-logo_normal.png
+  :profile_link_color: 009999
+  :profile_sidebar_border_color: DFDFDF
+  :profile_sidebar_fill_color: F3F3F3
   :profile_text_color: '333333'
   :profile_use_background_image: true
   :has_extended_profile: false
@@ -78,12 +68,13 @@
 :place: 
 :contributors: 
 :retweeted_status:
-  :created_at: Fri Dec 25 03:00:11 +0000 2015
-  :id: 680221471470432256
-  :id_str: '680221471470432256'
-  :text: "Now on Vine: Happy Holidays https://t.co/88zPYXFhTw \U0001F384⛄️ https://t.co/hg8IMHYtZ3"
-  :source: <a href="http://twitter.com/download/iphone" rel="nofollow">Twitter for
-    iPhone</a>
+  :created_at: Thu Dec 10 22:41:18 +0000 2015
+  :id: 675082891295121408
+  :id_str: '675082891295121408'
+  :text: "#Haskell by example with @fuadsaud @Codeminer42 @paulodiovani @matiasleidemer
+    https://t.co/Q76ofQGoFp"
+  :source: <a href="http://twitter.com/download/android" rel="nofollow">Twitter for
+    Android</a>
   :truncated: false
   :in_reply_to_status_id: 
   :in_reply_to_status_id_str: 
@@ -91,51 +82,52 @@
   :in_reply_to_user_id_str: 
   :in_reply_to_screen_name: 
   :user:
-    :id: 586671909
-    :id_str: '586671909'
-    :name: Vine
-    :screen_name: vine
-    :location: ''
-    :description: tweet @vinehelp for support
-    :url: https://t.co/0uHapkOl1S
+    :id: 93538794
+    :id_str: '93538794'
+    :name: Hanneli Tavante
+    :screen_name: hannelita
+    :location: "(x,y,z)"
+    :description: Developer, Engineer, Programming Languages, electronics, Science,
+      Math, bookahoolic, tech, Pokémon, Lego, animals, coffee drinker.
+    :url: https://t.co/oB2FrQCzO9
     :entities:
       :url:
         :urls:
-        - :url: https://t.co/0uHapkOl1S
-          :expanded_url: http://vine.co
-          :display_url: vine.co
+        - :url: https://t.co/oB2FrQCzO9
+          :expanded_url: https://medium.com/@hannelita
+          :display_url: medium.com/@hannelita
           :indices:
           - 0
           - 23
       :description:
         :urls: []
     :protected: false
-    :followers_count: 15705126
-    :friends_count: 1
-    :listed_count: 8400
-    :created_at: Mon May 21 14:34:36 +0000 2012
-    :favourites_count: 1223
-    :utc_offset: -18000
-    :time_zone: Eastern Time (US & Canada)
+    :followers_count: 2083
+    :friends_count: 302
+    :listed_count: 128
+    :created_at: Mon Nov 30 02:21:45 +0000 2009
+    :favourites_count: 1584
+    :utc_offset: -7200
+    :time_zone: Brasilia
     :geo_enabled: true
-    :verified: true
-    :statuses_count: 1527
+    :verified: false
+    :statuses_count: 14816
     :lang: en
     :contributors_enabled: false
     :is_translator: false
     :is_translation_enabled: false
-    :profile_background_color: F1F1EC
-    :profile_background_image_url: http://abs.twimg.com/images/themes/theme17/bg.gif
-    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme17/bg.gif
+    :profile_background_color: C6E2EE
+    :profile_background_image_url: http://abs.twimg.com/images/themes/theme2/bg.gif
+    :profile_background_image_url_https: https://abs.twimg.com/images/themes/theme2/bg.gif
     :profile_background_tile: false
-    :profile_image_url: http://pbs.twimg.com/profile_images/637262542516056064/MvotirGP_normal.jpg
-    :profile_image_url_https: https://pbs.twimg.com/profile_images/637262542516056064/MvotirGP_normal.jpg
-    :profile_banner_url: https://pbs.twimg.com/profile_banners/586671909/1446222196
-    :profile_link_color: 00BF8F
-    :profile_sidebar_border_color: FFFFFF
-    :profile_sidebar_fill_color: DDEEF6
-    :profile_text_color: '333333'
-    :profile_use_background_image: false
+    :profile_image_url: http://pbs.twimg.com/profile_images/560773227438297088/CIAD9w4d_normal.png
+    :profile_image_url_https: https://pbs.twimg.com/profile_images/560773227438297088/CIAD9w4d_normal.png
+    :profile_banner_url: https://pbs.twimg.com/profile_banners/93538794/1442860796
+    :profile_link_color: 1F98C7
+    :profile_sidebar_border_color: C6E2EE
+    :profile_sidebar_fill_color: DAECF4
+    :profile_text_color: 663B12
+    :profile_use_background_image: true
     :has_extended_profile: true
     :default_profile: false
     :default_profile_image: false
@@ -147,56 +139,282 @@
   :place: 
   :contributors: 
   :is_quote_status: false
-  :retweet_count: 1703
-  :favorite_count: 3707
+  :retweet_count: 2
+  :favorite_count: 10
   :entities:
-    :hashtags: []
+    :hashtags:
+    - :text: Haskell
+      :indices:
+      - 0
+      - 8
     :symbols: []
-    :user_mentions: []
-    :urls:
-    - :url: https://t.co/88zPYXFhTw
-      :expanded_url: https://vine.co/channels/happy-holidays
-      :display_url: vine.co/channels/happy…
+    :user_mentions:
+    - :screen_name: fuadsaud
+      :name: Fuad Saud
+      :id: 1305749852
+      :id_str: '1305749852'
       :indices:
-      - 28
-      - 51
-    - :url: https://t.co/hg8IMHYtZ3
-      :expanded_url: https://vine.co/v/iKYenvmF07b
-      :display_url: vine.co/v/iKYenvmF07b
+      - 25
+      - 34
+    - :screen_name: Codeminer42
+      :name: Codeminer42
+      :id: 367869891
+      :id_str: '367869891'
       :indices:
-      - 56
-      - 79
+      - 35
+      - 47
+    - :screen_name: paulodiovani
+      :name: Paulo Diovani
+      :id: 84621961
+      :id_str: '84621961'
+      :indices:
+      - 48
+      - 61
+    - :screen_name: matiasleidemer
+      :name: Matias H. Leidemer
+      :id: 14112812
+      :id_str: '14112812'
+      :indices:
+      - 62
+      - 77
+    :urls: []
+    :media:
+    - :id: 675082851843506176
+      :id_str: '675082851843506176'
+      :indices:
+      - 78
+      - 101
+      :media_url: http://pbs.twimg.com/media/CV5gRuoXAAARi_n.jpg
+      :media_url_https: https://pbs.twimg.com/media/CV5gRuoXAAARi_n.jpg
+      :url: https://t.co/Q76ofQGoFp
+      :display_url: pic.twitter.com/Q76ofQGoFp
+      :expanded_url: http://twitter.com/hannelita/status/675082891295121408/photo/1
+      :type: photo
+      :sizes:
+        :thumb:
+          :w: 150
+          :h: 150
+          :resize: crop
+        :small:
+          :w: 340
+          :h: 191
+          :resize: fit
+        :medium:
+          :w: 600
+          :h: 337
+          :resize: fit
+        :large:
+          :w: 1024
+          :h: 576
+          :resize: fit
+  :extended_entities:
+    :media:
+    - :id: 675082851843506176
+      :id_str: '675082851843506176'
+      :indices:
+      - 78
+      - 101
+      :media_url: http://pbs.twimg.com/media/CV5gRuoXAAARi_n.jpg
+      :media_url_https: https://pbs.twimg.com/media/CV5gRuoXAAARi_n.jpg
+      :url: https://t.co/Q76ofQGoFp
+      :display_url: pic.twitter.com/Q76ofQGoFp
+      :expanded_url: http://twitter.com/hannelita/status/675082891295121408/photo/1
+      :type: photo
+      :sizes:
+        :thumb:
+          :w: 150
+          :h: 150
+          :resize: crop
+        :small:
+          :w: 340
+          :h: 191
+          :resize: fit
+        :medium:
+          :w: 600
+          :h: 337
+          :resize: fit
+        :large:
+          :w: 1024
+          :h: 576
+          :resize: fit
+    - :id: 675082874039762945
+      :id_str: '675082874039762945'
+      :indices:
+      - 78
+      - 101
+      :media_url: http://pbs.twimg.com/media/CV5gTBUXAAERut4.jpg
+      :media_url_https: https://pbs.twimg.com/media/CV5gTBUXAAERut4.jpg
+      :url: https://t.co/Q76ofQGoFp
+      :display_url: pic.twitter.com/Q76ofQGoFp
+      :expanded_url: http://twitter.com/hannelita/status/675082891295121408/photo/1
+      :type: photo
+      :sizes:
+        :thumb:
+          :w: 150
+          :h: 150
+          :resize: crop
+        :small:
+          :w: 340
+          :h: 191
+          :resize: fit
+        :medium:
+          :w: 600
+          :h: 337
+          :resize: fit
+        :large:
+          :w: 1024
+          :h: 576
+          :resize: fit
   :favorited: false
   :retweeted: false
   :possibly_sensitive: false
   :lang: en
 :is_quote_status: false
-:retweet_count: 1703
+:retweet_count: 2
 :favorite_count: 0
 :entities:
-  :hashtags: []
+  :hashtags:
+  - :text: Haskell
+    :indices:
+    - 15
+    - 23
   :symbols: []
   :user_mentions:
-  - :screen_name: vine
-    :name: Vine
-    :id: 586671909
-    :id_str: '586671909'
+  - :screen_name: hannelita
+    :name: Hanneli Tavante
+    :id: 93538794
+    :id_str: '93538794'
     :indices:
     - 3
-    - 8
-  :urls:
-  - :url: https://t.co/88zPYXFhTw
-    :expanded_url: https://vine.co/channels/happy-holidays
-    :display_url: vine.co/channels/happy…
+    - 13
+  - :screen_name: fuadsaud
+    :name: Fuad Saud
+    :id: 1305749852
+    :id_str: '1305749852'
     :indices:
-    - 38
-    - 61
-  - :url: https://t.co/hg8IMHYtZ3
-    :expanded_url: https://vine.co/v/iKYenvmF07b
-    :display_url: vine.co/v/iKYenvmF07b
+    - 40
+    - 49
+  - :screen_name: Codeminer42
+    :name: Codeminer42
+    :id: 367869891
+    :id_str: '367869891'
     :indices:
-    - 66
-    - 89
+    - 50
+    - 62
+  - :screen_name: paulodiovani
+    :name: Paulo Diovani
+    :id: 84621961
+    :id_str: '84621961'
+    :indices:
+    - 63
+    - 76
+  - :screen_name: matiasleidemer
+    :name: Matias H. Leidemer
+    :id: 14112812
+    :id_str: '14112812'
+    :indices:
+    - 77
+    - 92
+  :urls: []
+  :media:
+  - :id: 675082851843506176
+    :id_str: '675082851843506176'
+    :indices:
+    - 93
+    - 116
+    :media_url: http://pbs.twimg.com/media/CV5gRuoXAAARi_n.jpg
+    :media_url_https: https://pbs.twimg.com/media/CV5gRuoXAAARi_n.jpg
+    :url: https://t.co/Q76ofQGoFp
+    :display_url: pic.twitter.com/Q76ofQGoFp
+    :expanded_url: http://twitter.com/hannelita/status/675082891295121408/photo/1
+    :type: photo
+    :sizes:
+      :thumb:
+        :w: 150
+        :h: 150
+        :resize: crop
+      :small:
+        :w: 340
+        :h: 191
+        :resize: fit
+      :medium:
+        :w: 600
+        :h: 337
+        :resize: fit
+      :large:
+        :w: 1024
+        :h: 576
+        :resize: fit
+    :source_status_id: 675082891295121408
+    :source_status_id_str: '675082891295121408'
+    :source_user_id: 93538794
+    :source_user_id_str: '93538794'
+:extended_entities:
+  :media:
+  - :id: 675082851843506176
+    :id_str: '675082851843506176'
+    :indices:
+    - 93
+    - 116
+    :media_url: http://pbs.twimg.com/media/CV5gRuoXAAARi_n.jpg
+    :media_url_https: https://pbs.twimg.com/media/CV5gRuoXAAARi_n.jpg
+    :url: https://t.co/Q76ofQGoFp
+    :display_url: pic.twitter.com/Q76ofQGoFp
+    :expanded_url: http://twitter.com/hannelita/status/675082891295121408/photo/1
+    :type: photo
+    :sizes:
+      :thumb:
+        :w: 150
+        :h: 150
+        :resize: crop
+      :small:
+        :w: 340
+        :h: 191
+        :resize: fit
+      :medium:
+        :w: 600
+        :h: 337
+        :resize: fit
+      :large:
+        :w: 1024
+        :h: 576
+        :resize: fit
+    :source_status_id: 675082891295121408
+    :source_status_id_str: '675082891295121408'
+    :source_user_id: 93538794
+    :source_user_id_str: '93538794'
+  - :id: 675082874039762945
+    :id_str: '675082874039762945'
+    :indices:
+    - 93
+    - 116
+    :media_url: http://pbs.twimg.com/media/CV5gTBUXAAERut4.jpg
+    :media_url_https: https://pbs.twimg.com/media/CV5gTBUXAAERut4.jpg
+    :url: https://t.co/Q76ofQGoFp
+    :display_url: pic.twitter.com/Q76ofQGoFp
+    :expanded_url: http://twitter.com/hannelita/status/675082891295121408/photo/1
+    :type: photo
+    :sizes:
+      :thumb:
+        :w: 150
+        :h: 150
+        :resize: crop
+      :small:
+        :w: 340
+        :h: 191
+        :resize: fit
+      :medium:
+        :w: 600
+        :h: 337
+        :resize: fit
+      :large:
+        :w: 1024
+        :h: 576
+        :resize: fit
+    :source_status_id: 675082891295121408
+    :source_status_id_str: '675082891295121408'
+    :source_user_id: 93538794
+    :source_user_id_str: '93538794'
 :favorited: false
 :retweeted: false
 :possibly_sensitive: false

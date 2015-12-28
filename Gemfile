@@ -17,6 +17,7 @@ gem 'representable', '~> 3.0.0'
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-normalize-css', '~> 3.0.3'
+  gem 'rails-assets-moment', '~> 2.10.6'
 end
 
 group :development, :test do
