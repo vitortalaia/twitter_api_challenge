@@ -25,5 +25,6 @@ class TimelineRepresenter < Representable::Decorator
     property :followers_count
     property :statuses_count
     property :profile_image_url_https
+    property :profile_banner_url
   end
 end
