@@ -39,7 +39,7 @@
   &__name {
     margin: 0 em(10px);
     font-size: em(22px);
-    color: darken($gray, 35%);
+    color: $dark-gray;
 
     @include media ($mobile) {
       font-size: em(18px);

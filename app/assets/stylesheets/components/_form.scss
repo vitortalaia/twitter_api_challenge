@@ -28,12 +28,10 @@
     background-color: $white;
     border-width: 0 0 1px;
     border-bottom-color: $light-gray;
-    outline: none;
 
     &:invalid {
       color: $light-red;
       border-bottom-color: $light-red;
-      box-shadow: none;
     }
   }
 }

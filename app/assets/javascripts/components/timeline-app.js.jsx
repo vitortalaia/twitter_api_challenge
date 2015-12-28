@@ -38,7 +38,11 @@ var TimelineApp = React.createClass({
 
   render: function () {
     if (!this.state.isSearching && this.state.content.length) {
-      var userProfile = <UserProfile user={this.state.content[0].user}/>;
+      var user = this.state.content[0].user,
+          userProfile = <UserProfile user={user} />,
+          userTimeline = <Timeline
+            tweets={this.state.content}
+            username={user.screen_name} />;
     }
 
     if (this.state.isSearching) {
@@ -66,6 +70,8 @@ var TimelineApp = React.createClass({
         { notice }
 
         { userProfile }
+
+        { userTimeline }
       </div>
     );
   }
