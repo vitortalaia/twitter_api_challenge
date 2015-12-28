@@ -32,7 +32,7 @@
     :description:
       :urls: []
   :protected: false
-  :followers_count: 962
+  :followers_count: 963
   :friends_count: 76
   :listed_count: 39
   :created_at: Sun Sep 04 18:10:56 +0000 2011
@@ -111,7 +111,7 @@
     :time_zone: Brasilia
     :geo_enabled: true
     :verified: false
-    :statuses_count: 14816
+    :statuses_count: 14817
     :lang: en
     :contributors_enabled: false
     :is_translator: false
