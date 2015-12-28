@@ -14,6 +14,7 @@ gem 'bourbon', '~> 4.2.6'
 gem 'neat', '~> 1.7.2'
 gem 'multi_json', '~> 1.11.2'
 gem 'representable', '~> 3.0.0'
+gem 'rails_12factor', group: :production
 
 source 'https://rails-assets.org' do
   gem 'rails-assets-normalize-css', '~> 3.0.3'
